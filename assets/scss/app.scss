@@ -92,7 +92,7 @@ h4 {
           background-size: 100%;
           font-size: 1.2rem;
           z-index: 1;
-          transition: all 0.5s linear;
+          transition: right 0.3s ease-in-out;
           &.active {
             right: 0;
           }
@@ -142,6 +142,9 @@ h4 {
                 display: block;
                 padding: 0.5rem;
                 color: #fff;
+                &:hover {
+                  color: #fff;
+                }
               }
             }
           }

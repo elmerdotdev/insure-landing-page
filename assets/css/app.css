@@ -54,7 +54,7 @@ h4 {
           background-size: 100%;
           font-size: 1.2rem;
           z-index: 1;
-          transition: all 0.5s linear; }
+          transition: right 0.3s ease-in-out; }
           .container header .wrap .menu.active {
             right: 0; } }
       .container header .wrap .menu ul {
@@ -106,7 +106,9 @@ h4 {
               .container header .wrap .menu ul li a {
                 display: block;
                 padding: 0.5rem;
-                color: #fff; } }
+                color: #fff; }
+                .container header .wrap .menu ul li a:hover {
+                  color: #fff; } }
       .container header .wrap .burger {
         margin-left: 1rem;
         padding: 3px;
