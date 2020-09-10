@@ -69,11 +69,13 @@ h4 {
     margin: auto;
   }
   header {
+    position: fixed;
     display: flex;
     padding: 1rem;
+    width: 100%;
     height: 83px;
     background: #fff;
-    z-index: 1;
+    z-index: 2;
     .wrap {
       justify-content: flex-end;
       align-items: center;
@@ -185,6 +187,7 @@ h4 {
   }
   .intro {
     position: relative;
+    margin-top: 83px;
     padding: 6rem 1rem 8rem;
     background: $bgBlue;
     @media screen and (max-width: 767px) {
